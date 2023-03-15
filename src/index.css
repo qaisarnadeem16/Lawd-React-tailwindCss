@@ -1,13 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo-small {
+  width: 170px;
+}
+
+.closeSearch {
+  display: block;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.6;
+}
+
+
+.banner {
+  -webkit-mask: url(assets/lawd_med_bg_icon_white.svg) 50% 50%;
+  mask-repeat: no-repeat;
+  z-index: 5;
+  width: 1000px;
+  height: 940px;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  position: absolute;
+  top: 0%;
+  left: -20px;
+}
+
+.bannerVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 72%;
+  object-fit: cover;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.feature {
+  background-image: url('assets/bg2.jpg');
+}
+
+.Services {
+  background: #004a8b url(assets/bg3.jpg) no-repeat 100% 100%;
+}
+
+.news {
+  overflow: hidden;
+  background: url(assets/bg1.jpg) no-repeat 50% 100%;
+}
+
+.heroBanner:before {
+  z-index: 1;
+  margin-right: 50px;
+  width: 100%;
+  height: 80%;
+  content: '';
+  background: url(./assets/bg12.png) no-repeat 100% 100%;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.heroBanner img {
+  filter: grayscale(100%);
+  width: 100%;
+  height: auto;
+}
+
+.heroBanner:after {
+  overflow: hidden;
+  z-index: 2;
+  width: 95%;
+  height: 73%;
+  content: '';
+  background: #004a8b;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 40px;
+}
+
+.simple {
+  background: #fff url(./assets/bg13.jpg) no-repeat 100% 50px;
+}
+
+/* //story */
+.left-img {
+  -webkit-mask: url(./assets//storyMask.svg) 50% 50%;
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+  -webkit-mask-size: 100% 100%;
+}
+
+.secondmask {
+  padding-top: 100px;
+  width: calc(48% + 50vw - 50%);
+  margin: 0 calc(50% - 50vw) 0 0;
+  background: url(./assets/lawd_med_bg_icon_white.svg) no-repeat 40px 0;
+  background-size: 100%;
+  min-height: 773px;
+}
+
+.Communities {
+  position: relative;
+  top: 0;
+  background:url(assets/bg1.jpg) no-repeat 0 100%;
+  overflow: hidden;
+}
+
+.boxText {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.team{
+  background:#f1f2f2 url(assets/bg7.jpg) no-repeat 0 0;
+}
+.News{
+  background:white url(assets/bg1.jpg) no-repeat 0 0;
+}
+.form{
+  clear: both;
+  margin: 0 calc(50% - 50vw );
+  padding: 0 calc(50vw - 50%);
+  background: #f1f2f2 url(assets/bg8.jpg) 100% 100% no-repeat;
+}
+@media (max-width: 768px) {
+  .banner {
+    -webkit-mask-position: 0 100%;
+    mask-position: 0 100%;
+    -webkit-border-radius: 0;
+    -webkit-mask-size: 230% auto;
+    mask-size: 230% auto;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    display: block;
+    position: relative;
+  }
+
+  .bannerVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .heroBanner:after {
+    width: 100%;
+    height: 40.5%;
+    left: 0;
+  }
+
+  .heroBanner img {
+    height: 260px;
+  }
+
+  .heroBanner:before {
+    height: 42%;
+  }
+
+  .secondmask {
+    padding-top: 0px;
+    width: calc(100% + 50vw - 50%);
+    background: #f1f2f2;
+    min-height: 0px;
+  }
 }
