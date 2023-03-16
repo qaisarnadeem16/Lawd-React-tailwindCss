@@ -13,7 +13,7 @@ const HeroSection = () => {
                         initial={{ left: '-200px' }}
                         whileInView={{ left: '2px' }}
                         transition={{ ...transition, type: 'tween' }}
-                        className="md:text-[60px] text-[28px] font-[600] md:pl-20  text-[#004a8b] leading-[35px] md:leading-[70px] relative">
+                        className="md:text-[55px] text-[28px] font-[600] md:pl-20  text-[#004a8b] leading-[35px] md:leading-[70px] relative">
                         <h1 className=''>Genuine leaders in specialist property</h1>
                     </motion.div>
 
