@@ -11,9 +11,9 @@ const BottomBar = () => {
     }
     return (
         <>
-            <div className="container sticky bottom-0 bg-[#004a8b] w-full py-3 md:hidden block">
+            <div className="container sticky bottom-0 bg-[#004a8b] w-full py-3 md:hidden block z-50">
                 <div className="flex justify-center "> {showSearchList ? <button className="flex  text-white text-[20px] font-bold " onClick={toggleList}>SEARCH LISTINGS <RiArrowDropUpLine className='text-[1.7rem]' /></button> :
-                    <button className="flex  text-white text-[20px]" onClick={toggleList}>SEARCH LISTINGS <RiArrowDropDownLine className='text-[1.7rem]' /></button>}</div>
+                    <button className="flex  text-white text-[20px] font-black" onClick={toggleList}>SEARCH LISTINGS <RiArrowDropDownLine className='text-[1.7rem]' /></button>}</div>
                 
                 <div className={`${showSearchList ? "visible" : "hidden"} w-[100%] absolute bottom-14  bg-white  px-7  z-10`}>
 

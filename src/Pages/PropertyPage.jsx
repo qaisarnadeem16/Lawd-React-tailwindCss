@@ -19,8 +19,7 @@ function SampleNextArrow(props) {
     const { onClick } = props;
     return (
         <div
-            style={{ display: "block", zIndex: '1', position: 'absolute' }}
-            onClick={onClick} className='md:text-[2.5rem] text-[1.3rem] md:text-[#b5d1b3] text-white md:top-16 bottom-10 right-5 md:right-[-4rem] z-10 hover:text-[#004a8b]'>  <SlArrowRight />
+            onClick={onClick} className='block  absolute md:text-[2.5rem] text-[1.3rem] md:text-[#b5d1b3] text-white md:top-16 bottom-10 right-5 md:right-[-4rem] z-10 hover:text-[#004a8b]'>  <SlArrowRight />
         </div>
     );
 }
@@ -28,8 +27,7 @@ function SamplePrevArrow(props) {
     const { onClick } = props;
     return (
         <div
-            style={{ display: "block", zIndex: '1', position: 'absolute' }}
-            onClick={onClick} className='md:text-[2.5rem] text-[1.3rem] md:text-[#b5d1b3] text-white  md:top-16 bottom-10 left-5 md:left-[-4rem] z-10 hover:text-[#004a8b]'>  <SlArrowLeft />
+            onClick={onClick} className='block  absolute md:text-[2.5rem] text-[1.3rem] md:text-[#b5d1b3] text-white  md:top-16 bottom-10 left-5 md:left-[-4rem] z-10 hover:text-[#004a8b]'>  <SlArrowLeft />
         </div>
     );
 }
@@ -83,7 +81,7 @@ const PropertyPage = () => {
         <>
             <SideIcon />
             <div className="main relative md:px-8 ">
-                <div className="arrow text-white text-[2rem] top-5 left-16 absolute z-10">
+                <div className="arrow text-white text-[2rem] top-5 md:left-16 left-4 absolute z-10">
                     <Link to='/SearchPage'>  <BsArrowLeft /></Link>
                 </div>
                 <div className="flex md:flex-col flex-col-reverse ">
@@ -100,8 +98,8 @@ const PropertyPage = () => {
                                     </div>
                                 </div>
 
-                                <div className=" text-white relative top-32 ">
-                                    <h2 className="md:text-[37px] text-[30px] leading-[48px] font-black">LARGE-SCALE VEGETABLE PRODUCTION OPPORTUNITY</h2>
+                                <div className=" text-white relative md:top-32 top-24">
+                                    <h2 className="md:text-[37px] text-[27px] md:leading-[48px] leading-[34px] font-black">LARGE-SCALE VEGETABLE PRODUCTION OPPORTUNITY</h2>
                                     <div className="w-[65px] h-[6px] bg-[#b5d1b3]  mt-5"></div>
 
                                     <div className="label text-white pt-6">
@@ -152,21 +150,21 @@ const PropertyPage = () => {
 
                 </div>
 
-                <div className="text md:px-40 px-5 md:py-16 flex flex-col md:flex-row">
+                <div className="text md:px-40 px-5 md:py-16 py-5 flex flex-col md:flex-row">
                     <div className="md:w-[40%] ">
                         <div className="">
-                            <h3 className="md:text-[23px] md:w-[300px] text-[16px] leading-[30px] font-[600] text-[#004a8b]  m-1">376 Mt Dangar Road, BOWEN QLD 4805</h3>
+                            <h3 className="text-[23px] md:w-[300px]  leading-[30px] font-[600] text-[#004a8b]  m-1">376 Mt Dangar Road, BOWEN QLD 4805</h3>
                         </div>
 
                         <div className="pt-6">
-                            <h3 className="md:text-[23px] md:w-[300px] text-[16px] leading-[30px] font-[600] text-[#004a8b]  m-1">Features</h3>
+                            <h3 className="text-[23px] md:w-[300px] leading-[30px] font-[600] text-[#004a8b]  m-1">Features</h3>
 
                             <span className=" flex gap-1 pt-1 items-center"><span className=""><img src={tick} alt="" /></span>Land is 1,223 ha</span>
                         </div>
                     </div>
 
-                    <div className="md:w-[60%]">
-                        <p className="">
+                    <div className="md:w-[60%] ">
+                        <p className="pt-6 md:pt-0 ">
                             RMS Advisory and LAWD are pleased to present for sale Donmore Farms (the Property), a profitable irrigated small crop and horticulture enterprise located 17* kilometres south-west of Bowen.
                         </p>
 

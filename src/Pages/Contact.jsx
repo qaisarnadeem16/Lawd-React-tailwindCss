@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="container">
                 <div className="heading py-10 px-5 flex md:ml-[25rem]">
                     <div className="">
-                        <h1 className="text-[40px] font-[900] text-[#004a8b]">
+                        <h1 className="md:text-[40px] text-[36px]  font-[900] text-[#004a8b]">
                             Our Office
                         </h1>
                         <div className="w-[63px] h-[8px] bg-[#b5d1b3] mt-3"></div>
@@ -19,27 +19,27 @@ const Contact = () => {
                     <div className="flex gap-5 md:flex-row flex-col">
                         <div className="w-[100%] md:w-[30%]">
                             <div className="">
-                                <h3 className="text-[#004a8b] text-[33px] font-black">Victoria</h3>
+                                <h3 className="text-[#004a8b] md:text-[33px] text-[24px] font-black">Victoria</h3>
                                 <span className="text-[20px] block text-[#004a8b]">+61 3 8361 8110</span>
                                 <span className="text-[16px]">level 26/80 Collins Street, Melbourne VIC, Australia.</span>
                             </div>
 
                             <div className="pt-5">
-                                <h3 className="text-[#004a8b] text-[30px] font-black">Queensland</h3>
+                                <h3 className="text-[#004a8b]  md:text-[33px] text-[24px] font-black">Queensland</h3>
                                 <span className="text-[20px] block text-[#004a8b]">+61 3 8361 8110</span>
                                 <span className="text-[16px]">The Annex, Suite 1.1, Level 1, 12 Creek Street, Brisbane Qld 4000.</span>
                             </div>
 
 
                             <div className="pt-5">
-                                <h3 className="text-[#004a8b] text-[30px] font-black">New South Wales</h3>
+                                <h3 className="text-[#004a8b] md:text-[33px] text-[24px] font-black">New South Wales</h3>
                                 <span className="text-[20px] block text-[#004a8b]">+61 3 8361 8110</span>
                                 <span className="text-[16px]">The Annex, Suite 1.1, Level 1, 12 Creek Street, Brisbane Qld 4000.</span>
                             </div>
 
 
                             <div className="pt-5">
-                                <h3 className="text-[#004a8b] text-[30px] font-black">Western Australia</h3>
+                                <h3 className="text-[#004a8b]  md:text-[33px] text-[24px] font-black">Western Australia</h3>
                                 <span className="text-[20px] block text-[#004a8b]">+61 3 8361 8110</span>
                                 <span className="text-[16px]">The Annex, Suite 1.1, Level 1, 12 Creek Street, Brisbane Qld 4000.</span>
                             </div>

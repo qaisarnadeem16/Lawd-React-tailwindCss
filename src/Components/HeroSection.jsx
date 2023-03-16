@@ -8,16 +8,16 @@ const HeroSection = () => {
     return (
         <>
             <div className="container flex flex-col md:flex-row md:h-[90vh] heroSection">
-                <div className="md:w-[40%] w-[100%] md:py-[12rem]">
+                <div className="md:w-[40%] w-[100%] md:py-[12rem] py-5 px-5">
                     <motion.div
                         initial={{ left: '-200px' }}
                         whileInView={{ left: '2px' }}
                         transition={{ ...transition, type: 'tween' }}
-                        className="md:text-[60px] text-[35px] font-[600] md:pl-20 text-[#004a8b] md:leading-[70px] relative">
+                        className="md:text-[60px] text-[28px] font-[600] md:pl-20  text-[#004a8b] leading-[35px] md:leading-[70px] relative">
                         <h1 className=''>Genuine leaders in specialist property</h1>
                     </motion.div>
 
-                    <div className="md:pl-20 px-3 md:text-[20px] text-[15px] mt-4 w-[80%]">
+                    <div className="md:pl-20  md:text-[20px] text-[15px] mt-4 w-[80%]">
                         <p>As leaders in specialist real estate,
                             we provide industry best transactional,
                             valuation and advisory services.</p>

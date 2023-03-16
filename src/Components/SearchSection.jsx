@@ -16,7 +16,8 @@ const SearchSection = () => {
                         </select>
                         </div>
 
-                        <div className="bg-white text-black h-[44px] px-2 mt-5"> <select className='w-full py-3 border-b border-gray-200' >
+                        <div className="bg-white text-black h-[44px] px-2 mt-5"> 
+                        <select className='w-full py-3 border-b border-gray-200' >
                             <option value="current">State</option>
                             <option value="current">ACT</option>
                             <option value="current">NSW</option>

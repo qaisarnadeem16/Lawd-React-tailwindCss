@@ -17,11 +17,11 @@ const Communities = () => {
 
                 <div className="heading py-10 px-5 flex flex-col md:px-[25rem]">
                     <div className="">
-                        <h1 className="text-[40px] font-[900] text-[#004a8b]">Our communities</h1>
+                        <h1 className="md:text-[40px] text-[36px] font-[900] text-[#004a8b]">Our communities</h1>
                         <div className="w-[63px] h-[8px] bg-[#b5d1b3] mt-3"></div>
                     </div>
                     <div className="pt-10">
-                        <h3 className="md:text-[23px] text-[16px] leading-[30px] font-[600] text-[#004a8b]  m-1">When LAWD was formed in 2020, the founders were determined to ensure one of company’s  most central values would always be a commitment to community.</h3>
+                        <h3 className="md:text-[23px] text-[18px] leading-[30px] font-[600] text-[#004a8b]  m-1">When LAWD was formed in 2020, the founders were determined to ensure one of company’s  most central values would always be a commitment to community.</h3>
                     </div>
                     <div className="pt-10">
                         <p className="">Since that time, the team has given its support to numerous sponsorships, partnerships and speaking engagements across the country – from national events, charities and scholarship programs to smaller organisations making an important difference in their local area.

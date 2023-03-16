@@ -7,11 +7,11 @@ const JoinOurTeam = () => {
                 <div className="team ">
                     <div className="heading py-10 px-5 flex flex-col md:px-[22rem]">
                         <div className="">
-                            <h1 className="text-[40px] font-[900] text-[#004a8b]">Join our team</h1>
+                            <h1 className="md:text-[40px] text-[36px]  font-[900] text-[#004a8b]">Join our team</h1>
                             <div className="w-[63px] h-[8px] bg-[#b5d1b3] mt-3"></div>
                         </div>
                         <div className="pt-10">
-                        <h3 className="md:text-[25px] text-[16px] leading-[30px] font-[600] text-[#004a8b]  m-1">At LAWD you will have the opportunity to work alongside some of the most respected names in the property industry.</h3>
+                        <h3 className="md:text-[25px] text-[20px] leading-[30px] font-[600] text-[#004a8b]  m-1">At LAWD you will have the opportunity to work alongside some of the most respected names in the property industry.</h3>
                         </div>
                         <div className="pt-10">
                             <p className="">With offices based in Brisbane, Melbourne, Sydney and Perth, our team is often travelling across the country working on some of Australia’s most significant real estate assets and transactions.</p>

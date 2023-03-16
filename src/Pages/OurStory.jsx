@@ -11,11 +11,11 @@ const OurStory = () => {
                 <div className="bg-[#f1f2f2] ">
                     <div className="heading py-10 px-5 flex flex-col md:px-[25rem]">
                         <div className="">
-                            <h1 className="text-[40px] font-[900] text-[#004a8b]">Our Story</h1>
+                            <h1 className="md:text-[40px] text-[36px] font-[900] text-[#004a8b]">Our Story</h1>
                             <div className="w-[63px] h-[8px] bg-[#b5d1b3] mt-3"></div>
                         </div>
                         <div className="py-10">
-                            <h3 className="md:text-[23px] text-[16px] leading-[30px] font-[600] text-[#004a8b]  m-1">LAWD is a tier-one firm in the Australian property market providing a full suite of professional real estate services including advisory, transactions and valuations, with specialist expertise in the development, land and agribusiness sectors.</h3>
+                            <h3 className="md:text-[23px] text-[20px] leading-[30px] font-[600] text-[#004a8b]  m-1">LAWD is a tier-one firm in the Australian property market providing a full suite of professional real estate services including advisory, transactions and valuations, with specialist expertise in the development, land and agribusiness sectors.</h3>
                         </div>
                     </div>
 

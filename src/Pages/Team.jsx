@@ -15,7 +15,7 @@ const Team = () => {
                 <div className="team ">
                     <div className="heading py-10 px-5 flex flex-col md:px-[22rem]">
                         <div className="">
-                            <h1 className="text-[40px] font-[900] text-[#004a8b]">Who we are</h1>
+                            <h1 className="md:text-[40px] text-[36px]  font-[900] text-[#004a8b]">Who we are</h1>
                             <div className="w-[63px] h-[8px] bg-[#b5d1b3] mt-3"></div>
                         </div>
                         <div className="py-10">
@@ -23,7 +23,7 @@ const Team = () => {
                         </div>
                     </div>
 
-                    <div className="container team md:px-20 px-5 md:pb-16 ">
+                    <div className="container team md:px-20 px-5 md:pb-16 ">    
                         <h4 className="text-[28px] leading-[37px] font-[600] text-[#004a8b]">Executive</h4>
 
 
@@ -48,7 +48,7 @@ const Team = () => {
 
                                 <span className=" md:text-white text-black bg-white md:bg-transparent md:absolute relative block pt-3 pb-8 px-2 w-full md:top-52 top-0 md:p-5  ">
                                     <span className="font-bold block">Enda foley</span>
-                                    <span className=" block text-[14px]">Chief Excute Officer</span>
+                                    <span className=" block text-[14px]">Chief Officer</span>
                                 </span>
                             </div>
 
